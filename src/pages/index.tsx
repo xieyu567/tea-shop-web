@@ -61,9 +61,9 @@ export default function HomePage() {
             </UnstyledLink>
 
             <footer className='absolute bottom-2 text-gray-700'>
-              © {new Date().getFullYear()} By{' '}
-              <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-                Theodorus Clarence
+              © 2023 - {new Date().getFullYear()} By{' '}
+              <UnderlineLink href='https://github.com/xieyu567?ref=tsnextstarter'>
+                Xieyu
               </UnderlineLink>
             </footer>
           </div>

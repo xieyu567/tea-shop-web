@@ -41,10 +41,6 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
-  .cursor-newtab {
-    cursor: url('/images/new-tab.png') 10 10, pointer;
-  }
-
   /* #region  /**=========== Typography =========== */
   .h0 {
     @apply font-primary text-3xl font-bold md:text-5xl;
@@ -74,12 +70,16 @@
   .p {
     @apply font-primary text-sm md:text-base;
   }
-  /* #endregion  /**======== Typography =========== */
 
+  /* #endregion  /**======== Typography =========== */
   .layout {
     /* 1100px */
     max-width: 68.75rem;
     @apply mx-auto w-11/12;
+  }
+
+  .bg-green {
+    @apply bg-lime-200;
   }
 
   .bg-dark a.custom-link {
@@ -104,6 +104,7 @@
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
   }
+
   @media (prefers-reduced-motion: no-preference) {
     .animated-underline {
       transition: 0.3s ease;

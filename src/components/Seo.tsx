@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: '茶店名称',
+  siteName: '茶店名称',
   description:
     'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
@@ -103,19 +103,19 @@ const favicons: Array<React.ComponentPropsWithoutRef<'link'>> = [
     rel: 'icon',
     type: 'image/png',
     sizes: '32x32',
-    href: '/favicon/favicon-32x32.png',
+    href: '/favicon/leaf.png',
   },
   {
     rel: 'icon',
     type: 'image/png',
     sizes: '16x16',
-    href: '/favicon/favicon-16x16.png',
+    href: '/favicon/leaf.png',
   },
   { rel: 'manifest', href: '/favicon/site.webmanifest' },
-  {
-    rel: 'mask-icon',
-    href: '/favicon/safari-pinned-tab.svg',
-    color: '#00e887',
-  },
-  { rel: 'shortcut icon', href: '/favicon/favicon.ico' },
+  // {
+  //   rel: 'mask-icon',
+  //   href: '/favicon/safari-pinned-tab.svg',
+  //   color: '#00e887',
+  // },
+  // { rel: 'shortcut icon', href: '/favicon/favicon.ico' },
 ];
