@@ -6,22 +6,16 @@ import data from '@/components/carousel/CarouselData';
 
 export type Promotion = {
   text: string;
-  url: string;
+  path: string;
 };
 
 export default function WrappedCarousel() {
   const promotions = data.map(
     // eslint-disable-next-line @next/next/no-img-element
     (item, _) => (
-      <Image
-        src={item.url}
-        key={item.text}
-        alt={item.text}
-        style={{
-          width: '100%',
-          height: 400,
-        }}
-      />
+      <div className='relative h-96' key={item.text}>
+        <Image src={item.path} alt={item.text} fill={true} />
+      </div>
     )
   );
 

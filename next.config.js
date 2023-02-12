@@ -7,12 +7,16 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
-  // Uncoment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'mdbcdn.b-cdn.net',
+        port: '',
+        pathname: '/img/**',
+      },
+    ],
+  },
 
   // SVGR
   webpack(config) {
