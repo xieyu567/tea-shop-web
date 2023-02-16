@@ -10,10 +10,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'mdbcdn.b-cdn.net',
+        protocol: 'http',
+        hostname: 'rpzwtz0ec.hn-bkt.clouddn.com',
         port: '',
-        pathname: '/img/**',
+        pathname: '/**',
       },
     ],
   },
