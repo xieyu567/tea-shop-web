@@ -24,7 +24,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "remult": "^0.17.3",
     "tailwind-merge": "^1.9.0"
   },
   "devDependencies": {
